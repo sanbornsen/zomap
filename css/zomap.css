@@ -1,0 +1,28 @@
+
+
+.dropdown{
+
+}
+
+.menubar{
+	position: fixed;
+	z-index: 100;
+	margin-left: 8%;
+	margin-top: 2%;
+	width: 38%;
+}
+
+.fnt{
+	font-size: 1em;
+	text-align: center;
+}
+
+.info{
+	height: 2%;
+    border: 1px solid;
+    border-radius: 7px;
+    background-color: wheat;
+    padding: 5px;
+    overflow: scroll;
+    display: none;
+}

@@ -1,0 +1,446 @@
+2014/06/04 12:29:32 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (/Library/WebServer/Documents/zomap/protected/views/layouts/main.php:51)
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Library/WebServer/Documents/yii/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#2 /Library/WebServer/Documents/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#3 /Library/WebServer/Documents/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(214): CContentDecorator->run()
+#5 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(308): SiteController->endWidget()
+#6 /Library/WebServer/Documents/zomap/protected/views/layouts/column1.php(6): SiteController->endContent()
+#7 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(126): require()
+#8 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#9 /Library/WebServer/Documents/yii/framework/web/CController.php(784): SiteController->renderFile()
+#10 /Library/WebServer/Documents/zomap/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /Library/WebServer/Documents/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /Library/WebServer/Documents/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /Library/WebServer/Documents/yii/framework/web/CController.php(286): SiteController->runAction()
+#14 /Library/WebServer/Documents/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /Library/WebServer/Documents/zomap/index.php(13): CWebApplication->run()
+REQUEST_URI=/zomap/
+in /Library/WebServer/Documents/zomap/protected/views/layouts/main.php (51)
+in /Library/WebServer/Documents/zomap/protected/views/layouts/column1.php (6)
+in /Library/WebServer/Documents/zomap/protected/controllers/SiteController.php (32)
+2014/06/04 12:36:24 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (/Library/WebServer/Documents/zomap/protected/views/layouts/main.php:51)
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Library/WebServer/Documents/yii/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#2 /Library/WebServer/Documents/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#3 /Library/WebServer/Documents/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(214): CContentDecorator->run()
+#5 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(308): SiteController->endWidget()
+#6 /Library/WebServer/Documents/zomap/protected/views/layouts/column1.php(6): SiteController->endContent()
+#7 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(126): require()
+#8 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#9 /Library/WebServer/Documents/yii/framework/web/CController.php(784): SiteController->renderFile()
+#10 /Library/WebServer/Documents/zomap/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /Library/WebServer/Documents/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /Library/WebServer/Documents/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /Library/WebServer/Documents/yii/framework/web/CController.php(286): SiteController->runAction()
+#14 /Library/WebServer/Documents/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /Library/WebServer/Documents/zomap/index.php(13): CWebApplication->run()
+REQUEST_URI=/zomap/
+in /Library/WebServer/Documents/zomap/protected/views/layouts/main.php (51)
+in /Library/WebServer/Documents/zomap/protected/views/layouts/column1.php (6)
+in /Library/WebServer/Documents/zomap/protected/controllers/SiteController.php (32)
+2014/06/04 12:37:50 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (/Library/WebServer/Documents/zomap/protected/views/layouts/main.php:51)
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Library/WebServer/Documents/yii/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#2 /Library/WebServer/Documents/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#3 /Library/WebServer/Documents/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(214): CContentDecorator->run()
+#5 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(308): SiteController->endWidget()
+#6 /Library/WebServer/Documents/zomap/protected/views/layouts/column1.php(6): SiteController->endContent()
+#7 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(126): require()
+#8 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#9 /Library/WebServer/Documents/yii/framework/web/CController.php(784): SiteController->renderFile()
+#10 /Library/WebServer/Documents/zomap/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /Library/WebServer/Documents/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /Library/WebServer/Documents/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /Library/WebServer/Documents/yii/framework/web/CController.php(286): SiteController->runAction()
+#14 /Library/WebServer/Documents/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /Library/WebServer/Documents/zomap/index.php(13): CWebApplication->run()
+REQUEST_URI=/zomap/
+in /Library/WebServer/Documents/zomap/protected/views/layouts/main.php (51)
+in /Library/WebServer/Documents/zomap/protected/views/layouts/column1.php (6)
+in /Library/WebServer/Documents/zomap/protected/controllers/SiteController.php (32)
+2014/06/04 13:29:41 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (/Library/WebServer/Documents/zomap/protected/views/layouts/main.php:51)
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Library/WebServer/Documents/yii/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#2 /Library/WebServer/Documents/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#3 /Library/WebServer/Documents/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(214): CContentDecorator->run()
+#5 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(308): SiteController->endWidget()
+#6 /Library/WebServer/Documents/zomap/protected/views/layouts/column1.php(6): SiteController->endContent()
+#7 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(126): require()
+#8 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#9 /Library/WebServer/Documents/yii/framework/web/CController.php(784): SiteController->renderFile()
+#10 /Library/WebServer/Documents/zomap/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /Library/WebServer/Documents/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /Library/WebServer/Documents/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /Library/WebServer/Documents/yii/framework/web/CController.php(286): SiteController->runAction()
+#14 /Library/WebServer/Documents/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /Library/WebServer/Documents/zomap/index.php(13): CWebApplication->run()
+REQUEST_URI=/zomap/
+in /Library/WebServer/Documents/zomap/protected/views/layouts/main.php (51)
+in /Library/WebServer/Documents/zomap/protected/views/layouts/column1.php (6)
+in /Library/WebServer/Documents/zomap/protected/controllers/SiteController.php (32)
+2014/06/04 13:31:12 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (/Library/WebServer/Documents/zomap/protected/views/layouts/main.php:51)
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Library/WebServer/Documents/yii/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#2 /Library/WebServer/Documents/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#3 /Library/WebServer/Documents/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(214): CContentDecorator->run()
+#5 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(308): SiteController->endWidget()
+#6 /Library/WebServer/Documents/zomap/protected/views/layouts/column1.php(6): SiteController->endContent()
+#7 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(126): require()
+#8 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#9 /Library/WebServer/Documents/yii/framework/web/CController.php(784): SiteController->renderFile()
+#10 /Library/WebServer/Documents/zomap/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /Library/WebServer/Documents/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /Library/WebServer/Documents/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /Library/WebServer/Documents/yii/framework/web/CController.php(286): SiteController->runAction()
+#14 /Library/WebServer/Documents/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /Library/WebServer/Documents/zomap/index.php(13): CWebApplication->run()
+REQUEST_URI=/zomap/
+in /Library/WebServer/Documents/zomap/protected/views/layouts/main.php (51)
+in /Library/WebServer/Documents/zomap/protected/views/layouts/column1.php (6)
+in /Library/WebServer/Documents/zomap/protected/controllers/SiteController.php (32)
+2014/06/04 13:31:14 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (/Library/WebServer/Documents/zomap/protected/views/layouts/main.php:51)
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Library/WebServer/Documents/yii/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#2 /Library/WebServer/Documents/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#3 /Library/WebServer/Documents/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(214): CContentDecorator->run()
+#5 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(308): SiteController->endWidget()
+#6 /Library/WebServer/Documents/zomap/protected/views/layouts/column1.php(6): SiteController->endContent()
+#7 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(126): require()
+#8 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#9 /Library/WebServer/Documents/yii/framework/web/CController.php(784): SiteController->renderFile()
+#10 /Library/WebServer/Documents/zomap/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /Library/WebServer/Documents/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /Library/WebServer/Documents/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /Library/WebServer/Documents/yii/framework/web/CController.php(286): SiteController->runAction()
+#14 /Library/WebServer/Documents/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /Library/WebServer/Documents/zomap/index.php(13): CWebApplication->run()
+REQUEST_URI=/zomap/
+in /Library/WebServer/Documents/zomap/protected/views/layouts/main.php (51)
+in /Library/WebServer/Documents/zomap/protected/views/layouts/column1.php (6)
+in /Library/WebServer/Documents/zomap/protected/controllers/SiteController.php (32)
+2014/06/04 13:35:31 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (/Library/WebServer/Documents/zomap/protected/views/layouts/main.php:51)
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Library/WebServer/Documents/yii/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#2 /Library/WebServer/Documents/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#3 /Library/WebServer/Documents/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(214): CContentDecorator->run()
+#5 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(308): SiteController->endWidget()
+#6 /Library/WebServer/Documents/zomap/protected/views/layouts/column1.php(6): SiteController->endContent()
+#7 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(126): require()
+#8 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#9 /Library/WebServer/Documents/yii/framework/web/CController.php(784): SiteController->renderFile()
+#10 /Library/WebServer/Documents/zomap/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /Library/WebServer/Documents/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /Library/WebServer/Documents/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /Library/WebServer/Documents/yii/framework/web/CController.php(286): SiteController->runAction()
+#14 /Library/WebServer/Documents/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /Library/WebServer/Documents/zomap/index.php(13): CWebApplication->run()
+REQUEST_URI=/zomap/
+in /Library/WebServer/Documents/zomap/protected/views/layouts/main.php (51)
+in /Library/WebServer/Documents/zomap/protected/views/layouts/column1.php (6)
+in /Library/WebServer/Documents/zomap/protected/controllers/SiteController.php (32)
+2014/06/04 13:35:34 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (/Library/WebServer/Documents/zomap/protected/views/layouts/main.php:51)
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Library/WebServer/Documents/yii/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#2 /Library/WebServer/Documents/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#3 /Library/WebServer/Documents/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(214): CContentDecorator->run()
+#5 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(308): SiteController->endWidget()
+#6 /Library/WebServer/Documents/zomap/protected/views/layouts/column1.php(6): SiteController->endContent()
+#7 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(126): require()
+#8 /Library/WebServer/Documents/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#9 /Library/WebServer/Documents/yii/framework/web/CController.php(784): SiteController->renderFile()
+#10 /Library/WebServer/Documents/zomap/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /Library/WebServer/Documents/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /Library/WebServer/Documents/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /Library/WebServer/Documents/yii/framework/web/CController.php(286): SiteController->runAction()
+#14 /Library/WebServer/Documents/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /Library/WebServer/Documents/zomap/index.php(13): CWebApplication->run()
+REQUEST_URI=/zomap/
+in /Library/WebServer/Documents/zomap/protected/views/layouts/main.php (51)
+in /Library/WebServer/Documents/zomap/protected/views/layouts/column1.php (6)
+in /Library/WebServer/Documents/zomap/protected/controllers/SiteController.php (32)
+2014/06/05 05:50:20 [error] [php] Undefined variable: name (/Library/WebServer/Documents/zomap/protected/views/site/index.php:49)
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Library/WebServer/Documents/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /Library/WebServer/Documents/zomap/protected/controllers/SiteController.php(36): SiteController->render()
+#3 /Library/WebServer/Documents/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#4 /Library/WebServer/Documents/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Library/WebServer/Documents/yii/framework/web/CController.php(286): SiteController->runAction()
+#6 /Library/WebServer/Documents/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Library/WebServer/Documents/zomap/index.php(15): CWebApplication->run()
+REQUEST_URI=/zomap/site/index
+in /Library/WebServer/Documents/zomap/protected/views/site/index.php (49)
+in /Library/WebServer/Documents/zomap/protected/controllers/SiteController.php (36)
+in /Library/WebServer/Documents/zomap/index.php (15)
+2014/06/05 09:30:42 [error] [php] Undefined variable: city_id (/Library/WebServer/Documents/zomap/protected/controllers/MetrosController.php:90)
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/filters/CFilterChain.php(133): MetrosController->runAction()
+#1 /Library/WebServer/Documents/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Library/WebServer/Documents/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Library/WebServer/Documents/yii/framework/web/filters/CInlineFilter.php(58): MetrosController->filterAccessControl()
+#4 /Library/WebServer/Documents/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Library/WebServer/Documents/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Library/WebServer/Documents/yii/framework/web/CController.php(265): MetrosController->runActionWithFilters()
+#7 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(282): MetrosController->run()
+#8 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Library/WebServer/Documents/zomap/index.php(15): CWebApplication->run()
+REQUEST_URI=/zomap/metros/get_list_by_city
+in /Library/WebServer/Documents/zomap/protected/controllers/MetrosController.php (90)
+in /Library/WebServer/Documents/zomap/index.php (15)
+2014/06/05 13:54:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bootstrap-select.js".' in /Library/WebServer/Documents/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('bootstrap-selec...')
+#1 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/zomap/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/zomap/bootstrap-select.js
+HTTP_REFERER=http://localhost/zomap/
+---
+2014/06/05 13:54:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bootstrap-select.css".' in /Library/WebServer/Documents/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('bootstrap-selec...')
+#1 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/zomap/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/zomap/bootstrap-select.css
+HTTP_REFERER=http://localhost/zomap/
+---
+2014/06/05 13:54:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bootstrap-select.css".' in /Library/WebServer/Documents/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('bootstrap-selec...')
+#1 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/zomap/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/zomap/bootstrap-select.css
+HTTP_REFERER=http://localhost/zomap/
+---
+2014/06/05 13:57:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bootstrap-select.css".' in /Library/WebServer/Documents/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('bootstrap-selec...')
+#1 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/zomap/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/zomap/bootstrap-select.css
+HTTP_REFERER=http://localhost/zomap/
+---
+2014/06/05 13:57:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bootstrap-select.js".' in /Library/WebServer/Documents/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('bootstrap-selec...')
+#1 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/zomap/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/zomap/bootstrap-select.js
+HTTP_REFERER=http://localhost/zomap/
+---
+2014/06/05 13:57:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bootstrap-select.css".' in /Library/WebServer/Documents/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('bootstrap-selec...')
+#1 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/zomap/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/zomap/bootstrap-select.css
+HTTP_REFERER=http://localhost/zomap/
+---
+2014/06/05 13:57:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bootstrap-select.css".' in /Library/WebServer/Documents/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('bootstrap-selec...')
+#1 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/zomap/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/zomap/bootstrap-select.css
+HTTP_REFERER=http://localhost/zomap/
+---
+2014/06/05 13:57:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bootstrap-select.js".' in /Library/WebServer/Documents/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('bootstrap-selec...')
+#1 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/zomap/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/zomap/bootstrap-select.js
+HTTP_REFERER=http://localhost/zomap/
+---
+2014/06/05 13:57:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bootstrap-select.js".' in /Library/WebServer/Documents/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('bootstrap-selec...')
+#1 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/zomap/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/zomap/bootstrap-select.js
+HTTP_REFERER=http://localhost/zomap/
+---
+2014/06/05 13:57:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bootstrap-select.css".' in /Library/WebServer/Documents/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('bootstrap-selec...')
+#1 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/zomap/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/zomap/bootstrap-select.css
+HTTP_REFERER=http://localhost/zomap/
+---
+2014/06/05 13:58:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bootstrap-select.js".' in /Library/WebServer/Documents/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('bootstrap-selec...')
+#1 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Library/WebServer/Documents/zomap/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/zomap/bootstrap-select.js
+HTTP_REFERER=http://localhost/zomap/
+---
+2014/06/06 10:56:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "get_station_name".' in /Library/WebServer/Documents/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CController.php(270): CController->missingAction('get_station_nam...')
+#1 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(282): CController->run('get_station_nam...')
+#2 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('metros/get_stat...')
+#3 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/zomap/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/zomap/metros/get_station_name
+HTTP_REFERER=http://localhost/zomap/
+---
+2014/06/06 10:57:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "get_station_name".' in /Library/WebServer/Documents/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CController.php(270): CController->missingAction('get_station_nam...')
+#1 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(282): CController->run('get_station_nam...')
+#2 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('metros/get_stat...')
+#3 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/zomap/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/zomap/metros/get_station_name
+HTTP_REFERER=http://localhost/zomap/
+---
+2014/06/06 10:57:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "get_station_name".' in /Library/WebServer/Documents/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CController.php(270): CController->missingAction('get_station_nam...')
+#1 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(282): CController->run('get_station_nam...')
+#2 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('metros/get_stat...')
+#3 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/zomap/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/zomap/metros/get_station_name
+HTTP_REFERER=http://localhost/zomap/
+---
+2014/06/06 10:57:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "get_station_name".' in /Library/WebServer/Documents/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CController.php(270): CController->missingAction('get_station_nam...')
+#1 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(282): CController->run('get_station_nam...')
+#2 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('metros/get_stat...')
+#3 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/zomap/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/zomap/metros/get_station_name
+HTTP_REFERER=http://localhost/zomap/
+---
+2014/06/06 10:57:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "get_station_name".' in /Library/WebServer/Documents/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CController.php(270): CController->missingAction('get_station_nam...')
+#1 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(282): CController->run('get_station_nam...')
+#2 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('metros/get_stat...')
+#3 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/zomap/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/zomap/metros/get_station_name
+HTTP_REFERER=http://localhost/zomap/
+---
+2014/06/06 10:57:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "get_station_name".' in /Library/WebServer/Documents/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/CController.php(270): CController->missingAction('get_station_nam...')
+#1 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(282): CController->run('get_station_nam...')
+#2 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('metros/get_stat...')
+#3 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /Library/WebServer/Documents/zomap/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/zomap/metros/get_station_name
+HTTP_REFERER=http://localhost/zomap/
+---
+2014/06/06 11:11:02 [error] [php] Undefined variable: data (/Library/WebServer/Documents/zomap/protected/controllers/MetrosController.php:136)
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/filters/CFilterChain.php(133): MetrosController->runAction()
+#1 /Library/WebServer/Documents/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Library/WebServer/Documents/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Library/WebServer/Documents/yii/framework/web/filters/CInlineFilter.php(58): MetrosController->filterAccessControl()
+#4 /Library/WebServer/Documents/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Library/WebServer/Documents/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Library/WebServer/Documents/yii/framework/web/CController.php(265): MetrosController->runActionWithFilters()
+#7 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(282): MetrosController->run()
+#8 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Library/WebServer/Documents/zomap/index.php(15): CWebApplication->run()
+REQUEST_URI=/zomap/metros/get_gates
+in /Library/WebServer/Documents/zomap/protected/controllers/MetrosController.php (136)
+in /Library/WebServer/Documents/zomap/index.php (15)
+2014/06/06 11:11:42 [error] [php] Undefined variable: data (/Library/WebServer/Documents/zomap/protected/controllers/MetrosController.php:136)
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/filters/CFilterChain.php(133): MetrosController->runAction()
+#1 /Library/WebServer/Documents/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Library/WebServer/Documents/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Library/WebServer/Documents/yii/framework/web/filters/CInlineFilter.php(58): MetrosController->filterAccessControl()
+#4 /Library/WebServer/Documents/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Library/WebServer/Documents/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Library/WebServer/Documents/yii/framework/web/CController.php(265): MetrosController->runActionWithFilters()
+#7 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(282): MetrosController->run()
+#8 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Library/WebServer/Documents/zomap/index.php(15): CWebApplication->run()
+REQUEST_URI=/zomap/metros/get_gates
+in /Library/WebServer/Documents/zomap/protected/controllers/MetrosController.php (136)
+in /Library/WebServer/Documents/zomap/index.php (15)
+2014/06/06 12:50:53 [error] [php] Undefined index: metro_id (/Library/WebServer/Documents/zomap/protected/controllers/MetrosController.php:219)
+Stack trace:
+#0 /Library/WebServer/Documents/yii/framework/web/filters/CFilterChain.php(133): MetrosController->runAction()
+#1 /Library/WebServer/Documents/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Library/WebServer/Documents/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Library/WebServer/Documents/yii/framework/web/filters/CInlineFilter.php(58): MetrosController->filterAccessControl()
+#4 /Library/WebServer/Documents/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Library/WebServer/Documents/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Library/WebServer/Documents/yii/framework/web/CController.php(265): MetrosController->runActionWithFilters()
+#7 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(282): MetrosController->run()
+#8 /Library/WebServer/Documents/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Library/WebServer/Documents/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Library/WebServer/Documents/zomap/index.php(15): CWebApplication->run()
+REQUEST_URI=/zomap/metros/update_exit
+in /Library/WebServer/Documents/zomap/protected/controllers/MetrosController.php (219)
+in /Library/WebServer/Documents/zomap/index.php (15)
